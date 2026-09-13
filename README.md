@@ -38,9 +38,3 @@ const item = await createItem("Hotwheels Ferrari", 20.99, 1);
 await cartService.addItem(myCart, item);
 await cartService.calculateTotal(myCart);
 ```
-
-## Próximos passos
-
-- Adicionar um script `start` ao `package.json`.
-- Criar testes automatizados para os serviços.
-- Substituir os itens de demonstração por entrada interativa ou uma interface web.
